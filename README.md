@@ -1,3 +1,8 @@
+> This is a fork of Klipper 0.13.x for building the mcu, nozzle, and bed firmware for the Creality K1 series.
+> 
+> Based on pellcorp/k1-klipper-firmware  
+> Also includes @happytechca's gd32f303xe MCU temperature fix (Klipper3d/klipper#6838)
+
 Welcome to the Klipper project!
 
 [![Klipper](docs/img/klipper-logo-small.png)](https://www.klipper3d.org/)
