@@ -7,7 +7,7 @@ config GD32_SELECT
     default y
     select HAVE_GPIO
     select HAVE_GPIO_ADC
-#    select HAVE_GPIO_I2C
+#   select HAVE_GPIO_I2C
     select HAVE_GPIO_SPI
     select HAVE_GPIO_BITBANGING
     select HAVE_STRICT_TIMING
@@ -15,6 +15,7 @@ config GD32_SELECT
 #	select HAVE_GPIO_HARD_PWM
     select HAVE_STEPPER_OPTIMIZED_BOTH_EDGE
     select HAVE_BOOTLOADER_REQUEST
+    select HAVE_LIMITED_CODE_SIZE
 
 config BOARD_DIRECTORY
     string
